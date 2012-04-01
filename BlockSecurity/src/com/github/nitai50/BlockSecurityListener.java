@@ -22,10 +22,10 @@ public class BlockSecurityListener implements Listener {
 		//plugin.getLogger().info("1");
 		plugin.getServer().getPluginManager().registerEvents(this, plugin);
 	}
-	@EventHandler(priority = EventPriority.HIGH)
+	@EventHandler(priority = EventPriority.MONITOR)
 	public void onBlockPlace(BlockPlaceEvent event){
 		//plugin.getLogger().info("2");
-		plugin.getLogger().info(event.getPlayer().getName() + " placed " + event.getBlock().getType().toString());
+// optional	//plugin.getLogger().info(event.getPlayer().getName() + " placed " + event.getBlock().getType().toString());
 		Date date = new GregorianCalendar().getTime();
 		Block block = event.getBlock();
 		Player player = event.getPlayer();
@@ -60,9 +60,9 @@ public class BlockSecurityListener implements Listener {
 //			BlockSecurity.dateData.put(date, u);
 //		}
 	}
-	@EventHandler(priority = EventPriority.HIGHEST)
-	public void onBlockBreak(BlockBreakEvent event){
-		plugin.getLogger().info(event.getPlayer().getName() + " broke " + event.getBlock().getType().toString());
+	@EventHandler(priority = EventPriority.MONITOR)
+	public void onBlockBreak(BlockBreakEvent event) {
+// optianal	//plugin.getLogger().info(event.getPlayer().getName() + " broke " + event.getBlock().getType().toString());
 		Date date = new GregorianCalendar().getTime();
 		Block block = event.getBlock();
 		Player player = event.getPlayer();
