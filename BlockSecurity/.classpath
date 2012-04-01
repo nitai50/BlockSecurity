@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.6"/>
+<<<<<<< HEAD
+	<classpathentry kind="lib" path="/Users/Nitai/Desktop/Bukkit Server/CraftBukkit.jar"/>
+=======
+	<classpathentry kind="lib" path="/Users/Nitai/Desktop/craftbukkit-1-1.2.4-R1.1-20120329.125541-1.jar"/>
+>>>>>>> 0f973839df23a5966d9c0028d2379393d765b231
+	<classpathentry kind="output" path="bin"/>
+</classpath>

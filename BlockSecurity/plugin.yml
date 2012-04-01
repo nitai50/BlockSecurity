@@ -1,0 +1,7 @@
+name: BlockSecurity
+main: com.github.nitai50.BlockSecurity
+version: 0.9
+commands:
+  writeDB:
+  rollback:
+  
